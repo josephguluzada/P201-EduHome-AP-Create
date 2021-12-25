@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9bXuNvaMyM+M3P2AqBLRAHDA6fQ9wzHv4QHTqqpaehTBK9L03CaMEFNAVb0P3C7ua4oPjdvjZqGLTr6zMR3Wlw==",
+  "dgSpecHash": "5CqtXj2JQJCxXJ8N6Gy/fU0lObp+xwPJ5X/yT0CIolYx+MmUc+VJoM3y+pLoQa8OCHjVCTa6ZM2pvMyNo9m5/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asus\\Desktop\\Eduhome\\EduHomePrac\\EduHomePrac\\EduHomePrac.csproj",
+  "projectFilePath": "C:\\Users\\asus\\Desktop\\Eduhome\\P201-EduHome-AP-Create\\EduHomePrac\\EduHomePrac\\EduHomePrac.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
