@@ -15,5 +15,6 @@ namespace EduHomePrac.Models
 
         public DbSet<Course> Courses { get; set; }
         public DbSet<Notice> Notices { get; set; }
+        public DbSet<Teacher> Teachers { get; set; }
     }
 }

@@ -29,7 +29,6 @@ namespace EduHomePrac.Areas.Manage.Controllers
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
         public IActionResult Create(Notice notice)
         {
             _context.Notices.Add(notice);
@@ -38,31 +37,5 @@ namespace EduHomePrac.Areas.Manage.Controllers
 
             return RedirectToAction("index", "notice");
         }
-
-        public IActionResult Edit(int id)
-        {
-            Notice notice = _context.Notices.FirstOrDefault(x => x.Id == id);
-            if (notice == null) return NotFound();
-
-            return View(notice);
-        }
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult Edit(Notice notice)
-        {
-            Notice existNotice = _context.Notices.FirstOrDefault(x => x.Id == notice.Id);
-
-            if (existNotice == null) return NotFound();
-            if (!ModelState.IsValid) return View();
-
-            existNotice.Desc = notice.Desc;
-            existNotice.Date = notice.Date;
-
-            _context.SaveChanges();
-
-            return RedirectToAction("index", "notice");
-        }
-
     }
 }

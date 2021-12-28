@@ -8480,11 +8480,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\asus\\Desktop\\Eduhome\\P201-EduHome-AP-Create\\EduHomePrac\\EduHomePrac\\EduHomePrac.csproj",
+      "projectUniqueName": "C:\\Users\\asus\\Desktop\\Eduhome\\EduHomePrac\\EduHomePrac\\EduHomePrac.csproj",
       "projectName": "EduHomePrac",
-      "projectPath": "C:\\Users\\asus\\Desktop\\Eduhome\\P201-EduHome-AP-Create\\EduHomePrac\\EduHomePrac\\EduHomePrac.csproj",
+      "projectPath": "C:\\Users\\asus\\Desktop\\Eduhome\\EduHomePrac\\EduHomePrac\\EduHomePrac.csproj",
       "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\asus\\Desktop\\Eduhome\\P201-EduHome-AP-Create\\EduHomePrac\\EduHomePrac\\obj\\",
+      "outputPath": "C:\\Users\\asus\\Desktop\\Eduhome\\EduHomePrac\\EduHomePrac\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
